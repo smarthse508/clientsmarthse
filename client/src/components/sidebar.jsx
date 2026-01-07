@@ -1,8 +1,4 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
-
-const navigate = useNavigate();
-navigate("/login");
 
 export default function Sidebar({ sidebarOpen, setSidebarOpen, activePage, setActivePage }) {
   const backendURL = import.meta.env.VITE_BACKEND_URL;
